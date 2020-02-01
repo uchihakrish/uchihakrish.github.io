@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<!-- Header -->
+<header class="header-main">
+  {% include nav.html %}
+  <div class="home-title">
+    <h1>{{ site.title }}</h1>
+    <h3>UI Design, UX Design, &amp; Development</h3>
+    <div class="buttonsWrapper">
+      <a class="buttonSecondary">Learn More</a>
+      <a href="mailto:{{ site.email }}" class="buttonPrimary">Contact</a>
+    </div>
+  </div>
+</header>
+<!-- About -->
+ <div class="who-is-he" id="blurb">
+  <h2>Who is he?</h2>
+  <p>Kishor Kumar is a B.tech Graduate in CSE who is exploring his knowledge of technologies and passionate about learning new things. <a href="{{ site.baseurl }}/blog">blog</a>. Keep up with new projects he is working on, subscribe to his <a href="#newsletter">newsletter</a> and go follow him on <a href="{{ site.linkedIn_path }}" target="_blank">LinkedIn</a>.</p>
+</div>
+
+<hr/>
+<!-- Recent Projects -->
+<h2 class="recent-projects">Recent Post</h2>
+<div class="recent-projects-content-wrap">
+  <div class="project-wrap">
+    <div class="project">
+     <div class="project-img project-img-one" data-path="auto">JS</div>
+     <a href="https://lokeshdhakar.com/projects/lightbox/" target="_blank" class="project-text">
+       <h4>Lightbox JS</h4>
+       <p>Lightbox JS is a tool for web developers from web developers. again it is a simple, unobtrusive script used to overlay images on the current page. It's a snap to setup and works on all modern browsers. It makes using a lightbox in a website extremely easy.</p>
+     </a>
+    </div>
+  </div>
+  <div class="project-wrap project-wrap-reverse">
+    <div class="project project-reverse">
+     <div class="project-img project-img-two lb-js" data-path="auto">Jekyll</div>
+     <a href="https://jekyllrb.com/" target="_blank" class="project-text">
+       <h4>Jekyll</h4>
+       <p>Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. It transform your plain text into static websites and blog.</p>
+     </a>
+    </div>
+  </div>
+  <div class="project-wrap">
+    <div class="project">
+     <div class="project-img project-img-three lb-js" data-type="image" data-path="{{ site.baseurl }}/assets/img/safestep-floors-recent-project-full.jpg"></div>
+     <a href="https://safestepfloors.com" target="_blank" class="project-text">
+       <h4>Safestep Floors</h4>
+       <p>Safestep Floors focuses on the health and safety of your floors by preventing slip and falls while your floor is both dry and wet.</p>
+     </a>
+    </div>
+  </div>
+  <div class="project-wrap project-wrap-reverse">
+    <div class="project project-reverse">
+     <div class="project-img project-img-four lb-js" data-type="video" datapath="http://sl2visuals.com/assets/videos/hero_vid.mp4">React</div>
+     <a href="https://reactjs.org/" target="_blank" class="project-text">
+       <h4>React JS</h4>
+       <p>React is a JavaScript library created by Facebook.It is a User Interface (UI) library anad it is also a tool for building UI components</p>
+     </a>
+    </div>
+  </div>
+</div>
+
+<hr class="hr-padded-top"/>

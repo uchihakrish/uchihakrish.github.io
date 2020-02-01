@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Kishor Kumar
+title_meta: Developer/feelancer
+email: krkrish92@gmail.com
+description: Kishor Kumar is a B.tech Graduate in CSE who is exploring his knowledge of technologies and passionate about learning new things.
+baseurl: "/kishorkr" # the subpath of your site, e.g. /blog
+url: "https://kishorkr.com" # the base hostname & protocol for your site, e.g. http://example.com
+instagram_path: https://www.instagram.com/uchiha_krish/
+facebook_path: https://www.facebook.com/hrishikesh.deka.5688
+github_path: https://github.com/uchihakrish
+linkedIn_path: https://www.linkedin.com/in/kishor-das-a961ab148/
+#twitter_username: jekyllrb
+github_username: uchihakrish
+instagram_username: uchiha_krish
+linkedIn_username: kishor-das-a961ab148
+facebook_username: hrishikesh.deka.5688
+
+pathToBlogImgBin: /assets/img/blog/
+
+# Build settings
+#theme: minima
+permalink: pretty
+markdown: kramdown
+gems:
+    - jekyll-feed
+    - jekyll-autoprefixer
+    - jekyll-sitemap
+plugins:
+  - jekyll-feed
+sass:
+    sass-dir: _saas
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+collections:
+  casestudies:
+    output: true
