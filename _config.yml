@@ -37,7 +37,7 @@ facebook_username: hrishikesh.deka.5688
 pathToBlogImgBin: /assets/img/blog/
 
 # Build settings
-#theme: minima
+theme: minima
 permalink: pretty
 markdown: kramdown
 gems:
