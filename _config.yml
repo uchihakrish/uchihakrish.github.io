@@ -23,7 +23,7 @@ title_meta: Developer/feelancer
 email: krkrish92@gmail.com
 description: Kishor Kumar is a B.tech Graduate in CSE who is exploring his knowledge of technologies and passionate about learning new things.
 baseurl: "/uchihakrish" # the subpath of your site, e.g. /blog
-url: "http://blog.uchihakrish.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.uchihakrish.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_path: https://www.instagram.com/uchiha_krish/
 facebook_path: https://www.facebook.com/hrishikesh.deka.5688
 github_path: https://github.com/uchihakrish
